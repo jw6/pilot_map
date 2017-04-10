@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="style.css"/>
     <script src="../bower_components/holderjs/holder.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKzRMnBmo5Ei3uUNSFnJaSRT7qmknUz8I"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUr1akv1K2FuC0tevTMGHs_lTZ8VxY0-Y"></script>
     <script src="../bower_components/modernizr/bin/modernizr"></script>
     <script src="../bower_components/jquery/jquery.js"></script>
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/angular-route/angular-route.js"></script>
     <script src="../bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/addCtrl.js"></script>
 </head>
 <body>
 
@@ -92,5 +94,8 @@
             <a href="https://github.com/coleloganburton/pilot">Pilot</a> | <a href="https://github.com/jw6/pilot_map">Github Repo</a></p>
     </div>
 </div>
+    <body ng-controller="addCtrl">
+    <button type="submit" class="btn btn-danger btn-block" ng-click="createUser()" ng-disabled="addForm.$invalid">Submit</button>
+
 </body>
 </html>
