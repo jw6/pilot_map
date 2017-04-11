@@ -1,9 +1,8 @@
 {
-    "name": "MeanMapsApp",
+    "name": "Pilot Map",
     "version": "1.0.0",
-    "description": "Demo app showing the use of Google Maps in MEAN Apps",
+    "description": "Making map query by using Google Map API",
     "main": "server.js",
-    "author": "Ahmed Haque",
     "dependencies" : {
         "express"    : "~4.7.2",
         "mongoose"   : "~4.1.0",
